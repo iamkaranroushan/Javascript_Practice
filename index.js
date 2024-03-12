@@ -41,15 +41,17 @@ if (number % 5 === 0) {
 
 
 let score = prompt("enter your score");
-
+let grade ;
 if (score>= 90 && score <= 100) {
-  console.log("grade is A");
+  grade = "A";
 }else if(score >= 70 && score <= 89){
-  console.log("grade is B");
+  grade = "B";
 }else if(score >= 60 && score <= 69){
-  console.log("grade is C");
+  grade = "C";
 }else if(score >= 50 && score <= 59){
-  console.log("grade is D");
+  grade = "D";
 }else if(score >= 0 && score <= 49){
-  console.log("grade is F");
+  grade = "F";
 }
+
+console.log(grade)
