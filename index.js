@@ -19,3 +19,12 @@ const b = "9";
 console.log("a == b", a == b); //true because it only checks values inside,
 console.log("a === b", a === b); //it is more strict, false because it check even datatype
 
+//conditional statements
+
+const num = 11;
+
+if (num % 2 === 0) {
+  console.log("even");
+} else {
+  console.log("odd");
+}
